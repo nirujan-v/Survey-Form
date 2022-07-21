@@ -1,0 +1,29 @@
+<style>
+{}
+
+#title {
+  color: white;
+}
+
+#background {
+  background-color: black;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#form {
+  background-color: mediumslateblue;
+  text-align: center;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  color: white;
+  font-family: verdana;
+}
+
+
+</style>
