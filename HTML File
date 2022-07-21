@@ -1,0 +1,48 @@
+ <div id = "background">
+   <div id = "form">
+     <h1 id = "title">Anime Survey</h1>
+     <p id ="description">An annual survey about this years top anime</p>
+      <form id = "survey-form">
+        <label id = "name-label" for="name">Name: </label>
+        <input id = "name" type="text" placeholder = "Name" required>
+         <label id = "email-label"for="email">Email: </label>
+        <input id = "email" type="email" placeholder = "Email" required>
+        <label id = "number-label" for="number">Age: </label>
+        <input id = "number" type="number" min = 0 max = 80 placeholder = "Age" >
+        <br>
+        <select name="level" id="dropdown">
+  <option value="beginner">Beginner</option>
+  <option value="novice">Novice</option>
+  <option value="expert">Expert</option>
+  <option value="otaku">Otaku</option>
+</select>
+        <br>
+        <input id="Jujustsu Kaisen" type="radio" name="popular-anime" value = "JJK" checked>
+        <label for="Jujutsu Kaisen">Jujutsu Kaisen</label>
+        <input id="Attack on Titan" type="radio" name="popular-anime" value = "AOT">
+        <label for="Attack on Titan">Attack on Titan</label>
+        <input id="My Hero Academia" type="radio" name="popular-anime" value = "MHA">
+        <label for="My Hero Academia">My Hero Academia</label>
+        <br>
+        
+        <label for="shonen"><input id="shonen" type="checkbox" name="category" value = "Shonen"> Shonen</label>
+        <label for="sliceoflife"><input id="sliceoflife" type="checkbox" name="category" value = "Slice of Life"> Slice of Life</label>
+        <label for="shojo"><input id="shojo" type="checkbox" name="category" value = "Shojo"> Shojo</label>
+        <br>
+        <textarea>
+        </textarea>
+
+
+
+        <br>
+        <button id = "submit"type="submit">Submit</button>
+        
+        
+
+</form>
+
+</div>
+</div>
+
+
+
